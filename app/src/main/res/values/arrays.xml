@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="privacy_type">
+        <item>Всем</item>
+        <item>Только друзьям</item>
+        <item>Только друзьям и друзьям друзей</item>
+        <item>Только мне</item>
+    </string-array>
+    <string-array name="privacy_type_for_request">
+        <item>all</item>
+        <item>friends</item>
+        <item>friends_of_friends</item>
+        <item>only_me</item>
+    </string-array>
+</resources>
