@@ -1,2 +1,2 @@
 ﻿# change-status
-App for change vk online stauts
+App for change vk online status
