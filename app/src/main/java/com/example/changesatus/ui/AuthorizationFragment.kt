@@ -54,14 +54,10 @@ class AuthorizationFragment : DialogFragment() {
                             errorMessage.text = "Было отправленно смс с кодом для подтверждения"
                             errorMessage.visibility = View.VISIBLE
                             codeEditText.visibility = View.VISIBLE
-                            Log.e("catch","TWO_FA_REQ")
-
                         }
                         TokenExceptionType.REGISTRATION_ERROR -> {
                             errorMessage.text = "Неправильный логин или пароль"
                             errorMessage.visibility = View.VISIBLE
-                            Log.e("catch","REGISTRATION_ERROR")
-
                         }
                         TokenExceptionType.NEED_CAPTCHA -> {
                             captchaSid = e.captchaSid
@@ -73,7 +69,6 @@ class AuthorizationFragment : DialogFragment() {
                         else -> {
                             errorMessage.text = e.message
                             errorMessage.visibility = View.VISIBLE
-                            Log.e("catch","else")
                         }
                     }
                 }
